@@ -37,7 +37,7 @@ $InstallArguments = "/install /quiet /norestart" # Optional
 $UninstallArguments = "/uninstall /quiet /norestart" # Optional
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

@@ -35,7 +35,7 @@ param(
 . "$PSScriptRoot\functions.ps1"
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Assign the returned values to individual variables
 $stagingFolderVar = $folderPaths.StagingFolder

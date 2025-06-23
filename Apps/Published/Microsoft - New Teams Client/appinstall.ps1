@@ -36,7 +36,7 @@ $Installer = "teamsbootstrapper.exe" # assumes the .exe or .msi installer is in 
 $msixFile = "MSTeams-x64.msix" # Optional, if you want to use the .msix file instead of the .exe installer
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

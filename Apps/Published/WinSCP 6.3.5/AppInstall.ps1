@@ -37,11 +37,8 @@ $Installer = "WinSCP-6.3.5-Setup.exe" # assumes the .exe or .msi installer is in
 $InstallArguments = "/VERYSILENT /ALLUSERS /ALLUSERS /NORESTART" # Optional
 $UninstallArguments = "/VERYSILENT /ALLUSERS /ALLUSERS /NORESTART" # Optional
 
-# Define the $HomeFolder variable
-$HomeFolder = "C:\HUD" # Requied so that we can create new folder in the root directory later.
-
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder $HomeFolder 
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

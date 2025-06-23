@@ -37,7 +37,7 @@ $InstallArguments = "/quiet InstallAllUsers=1 PrependPath=1 " # Optional
 $UninstallArguments = "/quiet" # Optional
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

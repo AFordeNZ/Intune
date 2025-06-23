@@ -39,7 +39,7 @@ $InstallArguments = "-s" # Optional
 $UninstallArguments = "--uninstall -s" # Optional
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

@@ -37,7 +37,7 @@ $InstallArguments = "/qn /norestart ALLUSERS=1 GOOGLE_CHROME=1" # Optional
 $UninstallArguments = "<UNINSTALLARGUMENTS>" # Optional
 
 # Initialize Directories
-$folderpaths = Initialize-Directories -HomeFolder C:\HUD\
+$folderpaths = Initialize-Directories -HomeFolder C:\FITC\
 
 # Template Variables
 $Date = Get-Date -Format "MM-dd-yyyy"

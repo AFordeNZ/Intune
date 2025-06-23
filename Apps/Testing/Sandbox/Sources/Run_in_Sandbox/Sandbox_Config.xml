@@ -1,0 +1,30 @@
+﻿<Configuration>
+	<VGpu>Enable</VGpu>
+	<Networking>Enable</Networking>
+	<ReadOnlyAccess>true</ReadOnlyAccess>
+	<WSB_Location>Default</WSB_Location>
+	<Main_Language>en-us</Main_Language>
+	<AudioInput>Default</AudioInput>
+	<VideoInput>Default</VideoInput>
+	<ProtectedClient>Default</ProtectedClient>
+	<PrinterRedirection>Default</PrinterRedirection>
+	<ClipboardRedirection>Default</ClipboardRedirection>
+	<MemoryInMB>16384</MemoryInMB>
+	<ContextMenu_EXE>True</ContextMenu_EXE>
+	<ContextMenu_MSI>True</ContextMenu_MSI>
+	<ContextMenu_PS1>True</ContextMenu_PS1>
+	<ContextMenu_VBS>True</ContextMenu_VBS>
+	<ContextMenu_ZIP>True</ContextMenu_ZIP>
+	<ContextMenu_Folder>True</ContextMenu_Folder>
+	<ContextMenu_Intunewin>True</ContextMenu_Intunewin>
+	<ContextMenu_MultipleApp>True</ContextMenu_MultipleApp>
+	<ContextMenu_Reg>True</ContextMenu_Reg>
+	<ContextMenu_ISO>True</ContextMenu_ISO>
+	<ContextMenu_PPKG>True</ContextMenu_PPKG>
+	<ContextMenu_HTML>True</ContextMenu_HTML>
+	<ContextMenu_MSIX>True</ContextMenu_MSIX>
+	<ContextMenu_CMD>True</ContextMenu_CMD>
+	<ContextMenu_PDF>True</ContextMenu_PDF>
+	<WSB_Cleanup>True</WSB_Cleanup>
+	<Hide_Powershell>True</Hide_Powershell>
+</Configuration>
